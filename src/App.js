@@ -32,7 +32,7 @@ class App extends React.Component {
       <div>
         <form onSubmit={this.onSubmit}>
         <h1>Hello</h1>
-        <p>Enter your name:</p>
+        <p>Enter your fruit:</p>
         <input
           type="text" 
           onChange={this.handleChange}
